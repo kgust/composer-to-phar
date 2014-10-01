@@ -1,0 +1,24 @@
+{
+    "chmod": "0755",
+    "compactors": [
+        "Herrera\\Box\\Compactor\\Json",
+        "Herrera\\Box\\Compactor\\Php"
+    ],
+    "directories": ["vendor"],
+    "finder": [
+        {
+            "name": [
+                "LICENSE",
+                "composer.json",
+                "*.php"
+            ],
+            "exclude": [
+                "tests"
+            ],
+            "in": ["vendor"]
+        }
+    ],
+    "main": "vendor/autoload.php",
+    "output": "vendor.phar",
+    "stub": true
+}
