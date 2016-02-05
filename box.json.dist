@@ -4,7 +4,7 @@
         "Herrera\\Box\\Compactor\\Json",
         "Herrera\\Box\\Compactor\\Php"
     ],
-    "directories": ["vendor"],
+    "directories": ["./vendor"],
     "finder": [
         {
             "name": [
@@ -15,10 +15,10 @@
             "exclude": [
                 "tests"
             ],
-            "in": ["vendor"]
+            "in": ["./vendor"]
         }
     ],
-    "main": "vendor/autoload.php",
-    "output": "vendor.phar",
+    "main": "./vendor/autoload.php",
+    "output": "./vendor.phar",
     "stub": true
 }

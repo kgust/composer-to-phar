@@ -1,15 +1,16 @@
 {
-    "name": "StraightNorth/jekyll",
+    "name": "kgust/composer-to-phar",
     "description": "Convert Composer's vendor folder into a PHAR file.",
     "require": {
         "mailgun/mailgun-php": "~1.7",
-        "symfony/yaml": "~2.5"
+        "symfony/yaml": "~2.5",
+        "kherge/box": "^2.6"
     },
     "license": "ISC",
     "authors": [
         {
             "name": "Kevin Gustavson",
-            "email": "kgustavson@straightnorth.com"
+            "email": "kdgustavson@gmail.com"
         }
     ],
     "scripts": {
